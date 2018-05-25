@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.cdac.beans.Rentbean" table="Rent">
+<id name="id" column="id" type="int">
+<generator class="native"/>
+</id>
+<property name="for1" column="for1" type="string"/>
+<property name="type" column="type" type="string"/>
+<property name="price" column="price" type="string"/>
+<property name="area" column="area" type="string"/>
+<property name="bhk" column="bhk" type="string"/>
+<property name="furnished" column="furnished" type="string"/>
+<property name="description" column="description" type="string"/>
+<property name="city" column="city" type="string"/>
+<property name="photo" column="photo" type="binary"/>
+</class>
+</hibernate-mapping>

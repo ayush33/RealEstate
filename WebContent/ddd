@@ -1,0 +1,10 @@
+<many-to-one name="Registerbean" column="uid" class="Registerbean" not-null="true"/>
+</class>
+<class name="Registerbean" table="Registerbean">
+<id name="id" type="int" column="ïd">
+<generator class="native"/>
+</id>
+<property name="name" column="name" type="string"/>
+<property name="mobile" column="mobile" type="string"/>
+<property name="email" column="email" type="string"/>
+<property name="email" column="email" type="string"/>
